@@ -1,0 +1,23 @@
+{
+  "name": "bjn",
+  "version": "1.0.0",
+  "description": "Bryan Novak's personal site.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjnovak/BJN.git"
+  },
+  "keywords": [
+    "Bryan",
+    "Novak"
+  ],
+  "author": "Bryan Novak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjnovak/BJN/issues"
+  },
+  "homepage": "https://github.com/bjnovak/BJN#readme"
+}
