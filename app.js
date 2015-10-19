@@ -1,4 +1,5 @@
 var express = require('express');
+var path = require('path');
 var app = express();
 var index = require('./routes/index');
 
@@ -6,6 +7,7 @@ app.set('views', __dirname + '/views');
 app.set('partials', __dirname + '/partials');
 app.set('view engine', 'jade');
 
+app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
 app.listen(3000, function () {

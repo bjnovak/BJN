@@ -1,9 +1,10 @@
-include ./mixins
+include ./header
+include ./navbar
 
 doctype html
 html(lang="en")
-	head
-		title= title
-		+bootswatch("flatly")
+	+header(theme, title)
 	body
-		h1= message
+		+navbar
+		h1= h1
+			small= h1Small
