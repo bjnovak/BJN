@@ -4,7 +4,6 @@ var app = express();
 var index = require('./routes/index');
 
 app.set('views', __dirname + '/views');
-app.set('partials', __dirname + '/partials');
 app.set('view engine', 'jade');
 
 app.use(express.static(path.join(__dirname, 'public')));
