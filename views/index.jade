@@ -6,9 +6,31 @@ html(lang="en")
 	+header(theme, title)
 	body
 		+navbar
-		.container
-			.row.row-top
-				h1= h1
-					small= h1Small
-			.row.row-custom
-				h2 Hello World
+		.splash
+			.container
+				.row
+					.col-lg-12
+						h1.text-center= h1
+							small= h1Small
+				.row
+					.col-lg-12.text-center
+						button(type="button" class="btn btn-success") Contact
+		.skills
+			.container
+				.row
+					.col-lg-12
+						h2 Skills
+						p C++, Java, JavaScript, NodeJS, mySQL, and HTML/CSS.
+		.education
+			.container
+				.row
+					.col-lg-12
+						h2 Education
+						p Bachelor's of Science in Computer Science,
+							| Missouri State University.
+		.work
+			.container
+				.row
+					.col-lg-12
+						h2 Work
+						p O'Reilly Auto Parts - Software Developer 5 Months, Intern Software Developer 7 Months.
